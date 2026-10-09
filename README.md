@@ -24,10 +24,10 @@ AI Teach Skill 是一个本地运行的通用教学框架。它在主对话中�
 
 ## Codex 安装
 
-仓库发布后，可把下面的 `OWNER` 替换为仓库所有者：
+通过 `skills` CLI 安装：
 
 ```bash
-npx skills add OWNER/ai-teach-skill --skill teach
+npx skills@latest add Sketchxym/ai-teach-skill --skill teach
 ```
 
 也可以从 GitHub Releases 下载 `teach-codex.zip`，解压后按 Codex 的本地 Skill 安装方式放置 `teach` 目录。
