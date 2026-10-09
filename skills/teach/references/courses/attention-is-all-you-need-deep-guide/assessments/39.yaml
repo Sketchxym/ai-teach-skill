@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "39",
+  "practice": [
+    {
+      "prompt": "待审核：低压力引导练习",
+      "criteria": "待审核：判定标准"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "待审核：独立提取、应用或迁移题",
+      "criteria": "待审核：判定标准"
+    }
+  ],
+  "review_required": true
+}

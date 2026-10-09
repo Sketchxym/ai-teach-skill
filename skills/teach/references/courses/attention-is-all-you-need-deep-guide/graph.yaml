@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "attention-is-all-you-need",
+      "title": "真正从零读懂《Attention Is All You Need》",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "transformer",
+      "title": "从“一个词如何看见另一个词”，一直讲到完整 Transformer、训练过程与现代大模型",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-3",
+      "title": "阅读地图：我们会走过四层台阶",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-4",
+      "title": "贯穿全文的主线案例",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "transformer-2",
+      "title": "第一部分：Transformer 为什么会出现？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "1",
+      "title": "1. 论文最初解决的不是聊天，而是机器翻译",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "2-transformer-rnn",
+      "title": "2. 在 Transformer 之前：RNN 像一场接力跑",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "2-1",
+      "title": "2.1 计算难以并行",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "2-2",
+      "title": "2.2 长距离信息要经过很多中间站",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "3-attention-transformer",
+      "title": "3. Attention 在 Transformer 之前已经存在",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "4-transformer",
+      "title": "4. 一句话概括 Transformer 的革命",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-12",
+      "title": "第二部分：读公式前，只需要补五个数学概念",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "5-token",
+      "title": "5. Token：模型处理的基本单位",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "6-embedding",
+      "title": "6. Embedding：把离散符号变成连续向量",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "7",
+      "title": "7. 点积：衡量两个方向有多匹配",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "8-softmax",
+      "title": "8. Softmax：把任意分数变成一组权重",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "9",
+      "title": "9. 加权和：不是选一个，而是按比例混合",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "10",
+      "title": "10. 线性投影：同一份输入可以有不同用途",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "self-attention",
+      "title": "第三部分：把 Self-Attention 从头算一遍",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "11-q-k-v",
+      "title": "11. Q、K、V 到底各自负责什么？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "12-query",
+      "title": "12. 单个 Query 的四步计算",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "13",
+      "title": "13. 一组完整的玩具算例",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "14-sqrt-d-k",
+      "title": "14. 为什么要除以 \\(\\sqrt{d_k}\\)？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "15-self-attention-self",
+      "title": "15. Self-Attention 的“Self”是什么意思？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "16",
+      "title": "16. 从一个词推广到整句话：矩阵形式",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "17-batch",
+      "title": "17. 带 batch 和多头时，形状如何变化？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "18-mask",
+      "title": "18. Mask 实际加在哪里？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "multi-head-attention",
+      "title": "第四部分：为什么需要 Multi-Head Attention？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "19",
+      "title": "19. 一个头可能不够表达多种关系",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "20",
+      "title": "20. “多个头”不是把模型维度乘八倍",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "21",
+      "title": "21. 不要把每个头过度人格化",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-32",
+      "title": "第五部分：没有循环，模型怎么知道顺序？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "22-self-attention",
+      "title": "22. Self-Attention 天生像在处理集合",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "23",
+      "title": "23. 原论文的正弦/余弦位置编码",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "24",
+      "title": "24. 为什么用很多种频率？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "encoder-attention",
+      "title": "第六部分：Encoder 不是只有 Attention",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "25-transformer",
+      "title": "25. 先看整台原始 Transformer",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "26-encoder",
+      "title": "26. 一个 Encoder 层有两个核心子层",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "27-ffn",
+      "title": "27. FFN：每个位置独立使用同一台“小计算器”",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "28",
+      "title": "28. 残差连接为什么重要？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "29-layernorm",
+      "title": "29. LayerNorm 在规范什么？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "30",
+      "title": "30. 为什么堆叠多层？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "decoder",
+      "title": "第七部分：Decoder 的三种信息来源",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "31-decoder",
+      "title": "31. Decoder 每层为什么有三个子层？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "32-causal-mask",
+      "title": "32. Causal Mask：训练时也不能偷看答案",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "33-cross-attention-q-k-v",
+      "title": "33. Cross-Attention 中 Q、K、V 来自哪里？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "attention",
+      "title": "三种 Attention 放在一起比较",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "34-linear-softmax",
+      "title": "34. 最后的 Linear + Softmax 如何变成词？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-49",
+      "title": "第八部分：训练和推理不是一回事",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "35",
+      "title": "35. 为什么训练可以并行？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "36",
+      "title": "36. 为什么推理仍然逐词？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "37-teacher-forcing",
+      "title": "37. Teacher Forcing 带来的训练—推理差异",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "38",
+      "title": "38. 一次完整翻译的数据流",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-54",
+      "title": "主线案例终于闭环",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-55",
+      "title": "第九部分：原论文是怎么训练出来的？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "39",
+      "title": "39. 数据与批处理",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "40-base-big",
+      "title": "40. Base 与 Big 配置",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "41-adam",
+      "title": "41. Adam 与特殊学习率计划",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "42",
+      "title": "42. 三类正则化细节",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "42-1-residual-dropout",
+      "title": "42.1 Residual Dropout",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "42-2-label-smoothing",
+      "title": "42.2 Label Smoothing",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "42-3",
+      "title": "42.3 权重共享",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "43",
+      "title": "43. 推理配置也会影响结果",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "transformer-3",
+      "title": "第十部分：Transformer 为什么快，又为什么怕长文本？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "44",
+      "title": "44. 三种架构的路径和复杂度",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "44-1",
+      "title": "44.1 为什么训练快？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "44-2",
+      "title": "44.2 为什么长序列贵？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "44-3-self-attention",
+      "title": "44.3 什么时候 Self-Attention 更划算？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-69",
+      "title": "第十一部分：论文结果和消融实验告诉了我们什么？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "45",
+      "title": "45. 主要机器翻译结果",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "46-bleu",
+      "title": "46. BLEU 是什么？",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "47",
+      "title": "47. 消融实验比最高分更有信息量",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "48",
+      "title": "48. 不只做翻译",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-74",
+      "title": "第十二部分：用伪代码把公式落到实现",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "transformer-4",
+      "title": "第十三部分：原始 Transformer 与今天的大模型",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "49",
+      "title": "49. 三种常见架构家族",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "49-1-encoder-only",
+      "title": "49.1 Encoder-only",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "49-2-decoder-only",
+      "title": "49.2 Decoder-only",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "49-3-encoder-decoder",
+      "title": "49.3 Encoder–Decoder",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "50-gpt-decoder",
+      "title": "50. GPT 不是原论文 Decoder 的原样复制",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "transformer-5",
+      "title": "第十四部分：Transformer 的边界与常见误解",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "51-attention-is-all-you-need-attention",
+      "title": "51. “Attention is all you need” 不等于模型只剩 Attention",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "52",
+      "title": "52. 注意力权重不自动等于解释",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "53-attention",
+      "title": "53. Attention 不等于理解",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "54",
+      "title": "54. 位置编码不是可有可无",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "55",
+      "title": "55. 二次复杂度不是唯一问题",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-87",
+      "title": "第十五部分：把知识结构压缩成一棵树",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-88",
+      "title": "一页速查表",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "unit-89",
+      "title": "参考资料与讲解设计来源",
+      "prerequisites": [],
+      "review_required": true
+    }
+  ]
+}
