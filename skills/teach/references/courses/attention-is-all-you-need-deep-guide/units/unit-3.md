@@ -15,7 +15,7 @@
 
 如果你完全是小白，按顺序阅读。已经熟悉线性代数的人，可以跳过第二章的数学预备。
 
-![从问题到整机的 Transformer 总知识地图](imgs/12-framework-knowledge-map.png)
+![从问题到整机的 Transformer 总知识地图](../imgs/12-framework-knowledge-map.png)
 
 ## 教学草稿
 

@@ -1,6 +1,6 @@
 # 发布检查记录
 
-版本：`v0.1.0-alpha`
+版本：`v0.1.1-alpha`
 
 ## 自动检查
 
@@ -9,7 +9,7 @@
 - Course Builder Skill 结构校验：通过（仅用于源项目质量检查，不随公开仓库发布）；
 - Transformer 课程校验：0 个结构错误，179 个预期人工审核警告；
 - Python 脚本语法检查：通过；
-- Codex 与 WorkBuddy ZIP：均包含 Skill、课程关键文件、89 个单元、89 份测验和 12 张图片。
+- Codex 与 WorkBuddy ZIP：均包含 Skill、课程关键文件、89 个单元、89 份测验和 12 张图片；每个 ZIP 内 24 个本地图片引用均可从其 Markdown 文件所在目录解析。
 
 ## 敏感信息检查范围
 

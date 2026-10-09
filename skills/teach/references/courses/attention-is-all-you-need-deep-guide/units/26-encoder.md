@@ -11,7 +11,7 @@
 
 此外，每个子层外都有残差连接和 LayerNorm。
 
-![一个编码器层中的注意力、残差、归一化和前馈网络](imgs/06-flowchart-encoder-layer.png)
+![一个编码器层中的注意力、残差、归一化和前馈网络](../imgs/06-flowchart-encoder-layer.png)
 
 ## 教学草稿
 

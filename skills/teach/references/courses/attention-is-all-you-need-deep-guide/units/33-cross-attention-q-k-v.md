@@ -12,7 +12,7 @@
 
 Decoder 用当前生成需求去查询源句。这和搜索系统的直觉非常接近：Decoder 提出问题，Encoder 提供索引与内容。
 
-![Decoder 的遮罩注意力、交叉注意力与逐词生成](imgs/07-flowchart-decoder-generation.png)
+![Decoder 的遮罩注意力、交叉注意力与逐词生成](../imgs/07-flowchart-decoder-generation.png)
 
 ## 教学草稿
 

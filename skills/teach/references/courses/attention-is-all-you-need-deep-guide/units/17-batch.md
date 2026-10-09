@@ -25,7 +25,7 @@
 
 这张表也解释了长序列为何昂贵：中间分数张量含有 \(B\times h\times n\times n\) 个元素。
 
-![多头注意力中的张量形状变化](imgs/10-framework-tensor-shapes.png)
+![多头注意力中的张量形状变化](../imgs/10-framework-tensor-shapes.png)
 
 ## 教学草稿
 

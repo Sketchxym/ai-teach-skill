@@ -6,7 +6,7 @@
 
 原论文采用 Encoder–Decoder 架构，基础模型两边各堆叠 6 层。
 
-![原始 Transformer 编码器—解码器总体结构](imgs/02-framework-transformer-architecture.png)
+![原始 Transformer 编码器—解码器总体结构](../imgs/02-framework-transformer-architecture.png)
 
 Encoder 把输入加工成上下文表示；Decoder 根据已经生成的目标 token，同时读取 Encoder 结果，预测下一个 token。
 

@@ -18,7 +18,7 @@
 3. softmax：把每行分数变成概率式权重。
 4. 乘以 \(V\)：对 Value 加权求和。
 
-![Q、K、V 到注意力输出的四步计算](imgs/03-flowchart-qkv-attention.png)
+![Q、K、V 到注意力输出的四步计算](../imgs/03-flowchart-qkv-attention.png)
 
 ## 教学草稿
 
