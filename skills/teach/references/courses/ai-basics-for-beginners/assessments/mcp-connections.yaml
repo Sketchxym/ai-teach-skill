@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "mcp-connections",
+  "practice": [
+    {
+      "prompt": "MCP 更像天气工具还是插座标准？为什么？",
+      "criteria": "选择插座标准；说明它规范连接而非提供具体天气能力。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "给出采用 MCP 后仍需配置的一项内容和一项权限风险。",
+      "criteria": "能指出服务端/客户端/认证配置之一，并识别数据或动作权限。"
+    }
+  ],
+  "review_required": true
+}

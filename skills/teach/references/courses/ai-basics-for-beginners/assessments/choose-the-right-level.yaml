@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "choose-the-right-level",
+  "practice": [
+    {
+      "prompt": "只改写一段文案，为什么通常不需要 Agent？",
+      "criteria": "说明任务单步、无需外部动作，普通模型更轻量。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "为需要读取文件并发邮件的任务选择方案并列出审批点。",
+      "criteria": "选择带工具与状态的系统，真实发送前明确人工确认。"
+    }
+  ],
+  "review_required": true
+}

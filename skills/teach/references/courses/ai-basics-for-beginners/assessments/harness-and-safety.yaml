@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "harness-and-safety",
+  "practice": [
+    {
+      "prompt": "为什么一句“不要误删文件”不能替代执行层权限？",
+      "criteria": "说明提示可能失效，平台权限与审批才能强制约束真实动作。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "为自动整理文件任务设计允许、需确认、禁止三类动作。",
+      "criteria": "三类边界清楚，危险写入或删除要求确认或禁止。"
+    }
+  ],
+  "review_required": true
+}

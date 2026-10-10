@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "ai-basics-for-beginners",
+  "title": "给小白的 AI 基础课",
+  "version": "0.1.0-draft",
+  "source_sha256": "54e9075f7dccf9f3f51d53b84c5e17e4ca4e9fc63bc67bdb5d378bb7c1970287",
+  "strategy": "reorganize",
+  "suggested_order": [
+    "ai-system-map",
+    "llm-capability-boundary",
+    "tokens-and-generation",
+    "training-and-inference",
+    "context-and-window",
+    "clear-prompts",
+    "rag-grounding",
+    "tool-calling",
+    "mcp-connections",
+    "agent-loop",
+    "harness-and-safety",
+    "reusable-skills",
+    "choose-the-right-level"
+  ],
+  "status": "draft",
+  "intended_use": "structure_and_flow_testing",
+  "review_required": true
+}

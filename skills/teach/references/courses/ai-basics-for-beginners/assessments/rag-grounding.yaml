@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "rag-grounding",
+  "practice": [
+    {
+      "prompt": "按顺序说出 RAG 的三个核心步骤。",
+      "criteria": "用户问题后先检索，再把相关片段与问题交给模型，最后生成答案。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "公司制度问答仍可能答错，列出两个原因。",
+      "criteria": "原因来自检索遗漏/误匹配、材料过期或生成偏差中的至少两个。"
+    }
+  ],
+  "review_required": true
+}

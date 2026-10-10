@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "reusable-skills",
+  "practice": [
+    {
+      "prompt": "一次性提示词与 Skill 有什么区别？",
+      "criteria": "指出 Skill 面向重复场景，有稳定触发边界、步骤、规则和输出。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "为“每周复盘”写一个四项 Skill 骨架。",
+      "criteria": "包含适用场景、步骤、判断规则、输出格式，且不过度扩张权限。"
+    }
+  ],
+  "review_required": true
+}

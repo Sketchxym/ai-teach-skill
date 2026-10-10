@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "training-and-inference",
+  "practice": [
+    {
+      "prompt": "把数据清洗、Token 化、参数调整、日常提问按先后排序。",
+      "criteria": "顺序正确，并把前三者归入训练准备/训练，把日常提问归入推理。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "向完全不懂技术的人解释“聊天不是重新训练模型”。",
+      "criteria": "明确参数通常已固定，聊天是在当前上下文中使用参数生成。"
+    }
+  ],
+  "review_required": true
+}

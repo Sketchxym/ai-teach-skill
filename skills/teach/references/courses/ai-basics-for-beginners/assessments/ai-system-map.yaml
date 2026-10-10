@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "ai-system-map",
+  "practice": [
+    {
+      "prompt": "把“模型、RAG、工具、Agent”分别比作团队里的什么角色？",
+      "criteria": "四个角色职责不混淆；指出 RAG 找资料、工具执行、Agent 编排。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "为“整理客户周报”标出模型、资料、工具和管控分别在哪里。",
+      "criteria": "形成完整任务链，且不把模型输出当作已执行动作。"
+    }
+  ],
+  "review_required": true
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "llm-capability-boundary",
+  "practice": [
+    {
+      "prompt": "判断：模型能解释天气概念，所以也天然知道今天的实时天气。说明理由。",
+      "criteria": "回答为否；区分生成能力与实时数据来源。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "把三个需求分成“只需生成”和“需要外部能力”，并解释。",
+      "criteria": "分类依据是实时性、私有数据或真实动作，而非产品名称。"
+    }
+  ],
+  "review_required": true
+}

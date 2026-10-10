@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "ai-system-map",
+      "title": "先看全景：模型、工具与智能体如何分工",
+      "prerequisites": [],
+      "review_required": true
+    },
+    {
+      "id": "llm-capability-boundary",
+      "title": "大语言模型是什么，又不是什么",
+      "prerequisites": [
+        "ai-system-map"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "tokens-and-generation",
+      "title": "Token 与逐步生成：文字如何进入模型",
+      "prerequisites": [
+        "llm-capability-boundary"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "training-and-inference",
+      "title": "训练与使用：模型怎样学会预测",
+      "prerequisites": [
+        "tokens-and-generation"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "context-and-window",
+      "title": "上下文：模型这一轮真正看见了什么",
+      "prerequisites": [
+        "tokens-and-generation"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "clear-prompts",
+      "title": "提示词：把目标、材料和约束说清楚",
+      "prerequisites": [
+        "context-and-window"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "rag-grounding",
+      "title": "RAG：先找相关资料，再让模型回答",
+      "prerequisites": [
+        "context-and-window",
+        "clear-prompts"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "tool-calling",
+      "title": "工具调用：模型做决定，平台执行动作",
+      "prerequisites": [
+        "clear-prompts"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "mcp-connections",
+      "title": "MCP：统一连接方式，不是新的大模型",
+      "prerequisites": [
+        "tool-calling"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "agent-loop",
+      "title": "Agent：围绕目标形成观察与行动闭环",
+      "prerequisites": [
+        "tool-calling"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "harness-and-safety",
+      "title": "Harness：给 Agent 加权限、状态和护栏",
+      "prerequisites": [
+        "agent-loop"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "reusable-skills",
+      "title": "Skills：把可靠做法沉淀成可复用能力",
+      "prerequisites": [
+        "clear-prompts",
+        "agent-loop"
+      ],
+      "review_required": true
+    },
+    {
+      "id": "choose-the-right-level",
+      "title": "按任务选层级：聊天、工具还是 Agent",
+      "prerequisites": [
+        "llm-capability-boundary",
+        "agent-loop",
+        "harness-and-safety"
+      ],
+      "review_required": true
+    }
+  ]
+}

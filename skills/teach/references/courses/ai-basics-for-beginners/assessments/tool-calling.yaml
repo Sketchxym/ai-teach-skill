@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "tool-calling",
+  "practice": [
+    {
+      "prompt": "天气查询里，谁决定使用工具，谁真正执行？",
+      "criteria": "模型生成调用意图与参数；平台校验并执行工具。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "设计一个计算器调用链，写出用户、模型、平台、工具各做什么。",
+      "criteria": "四个角色完整且先后顺序正确。"
+    }
+  ],
+  "review_required": true
+}

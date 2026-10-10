@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "context-and-window",
+  "practice": [
+    {
+      "prompt": "列出模型一次请求中可能看到的四类内容。",
+      "criteria": "至少包含用户问题、对话历史、系统规则、工具或文件信息中的四类。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "解释为什么模型能理解“把刚才那份总结缩短”。",
+      "criteria": "指出平台重新携带前文；不把它说成永久记忆。"
+    }
+  ],
+  "review_required": true
+}

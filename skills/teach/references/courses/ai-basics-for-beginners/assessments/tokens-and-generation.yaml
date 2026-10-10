@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "tokens-and-generation",
+  "practice": [
+    {
+      "prompt": "为什么 Token 不能简单等同于一个汉字？",
+      "criteria": "说明切分由 tokenizer 决定，不同文本和模型可能不同。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "用三句话解释模型如何从提示逐步生成完整回答。",
+      "criteria": "包含切分成 Token、预测下一个 Token、回填并重复。"
+    }
+  ],
+  "review_required": true
+}

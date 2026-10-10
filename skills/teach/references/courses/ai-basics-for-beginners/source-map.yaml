@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "mappings": [
+    {
+      "node_id": "ai-system-map",
+      "source": "source.md",
+      "start_line": 6,
+      "end_line": 6
+    },
+    {
+      "node_id": "llm-capability-boundary",
+      "source": "source.md",
+      "start_line": 192,
+      "end_line": 253
+    },
+    {
+      "node_id": "tokens-and-generation",
+      "source": "source.md",
+      "start_line": 255,
+      "end_line": 255
+    },
+    {
+      "node_id": "training-and-inference",
+      "source": "source.md",
+      "start_line": 439,
+      "end_line": 678
+    },
+    {
+      "node_id": "context-and-window",
+      "source": "source.md",
+      "start_line": 296,
+      "end_line": 354
+    },
+    {
+      "node_id": "clear-prompts",
+      "source": "source.md",
+      "start_line": 355,
+      "end_line": 420
+    },
+    {
+      "node_id": "rag-grounding",
+      "source": "source.md",
+      "start_line": 680,
+      "end_line": 680
+    },
+    {
+      "node_id": "tool-calling",
+      "source": "source.md",
+      "start_line": 739,
+      "end_line": 798
+    },
+    {
+      "node_id": "mcp-connections",
+      "source": "source.md",
+      "start_line": 799,
+      "end_line": 834
+    },
+    {
+      "node_id": "agent-loop",
+      "source": "source.md",
+      "start_line": 836,
+      "end_line": 836
+    },
+    {
+      "node_id": "harness-and-safety",
+      "source": "source.md",
+      "start_line": 878,
+      "end_line": 948
+    },
+    {
+      "node_id": "reusable-skills",
+      "source": "source.md",
+      "start_line": 949,
+      "end_line": 1009
+    },
+    {
+      "node_id": "choose-the-right-level",
+      "source": "source.md",
+      "start_line": 1230,
+      "end_line": 1249
+    }
+  ]
+}

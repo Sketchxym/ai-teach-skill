@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "clear-prompts",
+  "practice": [
+    {
+      "prompt": "把“帮我写一下”改成清晰任务。",
+      "criteria": "至少补充目标、材料或背景、约束、输出格式。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "为一次会议纪要任务写一条不超过 120 字的提示词。",
+      "criteria": "信息充分、无无关术语，并禁止补写未知事实。"
+    }
+  ],
+  "review_required": true
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "node_id": "agent-loop",
+  "practice": [
+    {
+      "prompt": "普通问答与 Agent 的关键差别是什么？",
+      "criteria": "指出 Agent 围绕目标进行多步规划、行动、观察和继续决策。"
+    }
+  ],
+  "verification": [
+    {
+      "prompt": "把“准备一次出差”拆成 Agent 的三步闭环。",
+      "criteria": "每步包含行动与结果检查，最后有完成或询问条件。"
+    }
+  ],
+  "review_required": true
+}
